@@ -17,6 +17,11 @@ Thanks Diary
 ## Usage
 
 ## Install
+```bash
+git clone https://github.com/hoge/~
+cd examples
+python demo.py
+```
 
 ## Contribution
 
