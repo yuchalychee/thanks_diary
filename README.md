@@ -1,11 +1,11 @@
 Thanks Diary
 
-An app that keeps a record of events that can be said to be "thank you" even for small things.
-The aim was to become a habit by spelling every day, and to be grateful and to be able to spend a healthy life by giving thanks.
+小さなことでも”ありがとう”と言えるような出来事を日記として記録を残すアプリ。
+毎日綴ることで習慣化し、感謝をすることで日々幸せを感じながら健やかに過ごせることを目的としました。
 
 ## Description
-This app allows you to leave text as a diary, as well as edit and delete articles later.
-In addition, you can browse the posted contents of other contributors who use the app thank you.
+このアプリは日記として文章を残すことはもちろん、後から記事の編集や削除もすることが可能です。
+また、感謝アプリを利用している他の投稿者の投稿内容が閲覧できます。
 
 ## Demo
 
