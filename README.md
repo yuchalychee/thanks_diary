@@ -5,30 +5,16 @@ Thanks Diary
 
 ## Description
 このアプリは日記として文章を残すことはもちろん、後から記事の編集や削除もすることが可能です。
-また、感謝アプリを利用している他の投稿者の投稿内容が閲覧できます。
-
-## Demo
-
-
-## VS. 
+また、このアプリを利用している他の投稿者の投稿内容が閲覧できます。
 
 ## Requirement
-
-## Usage
+rails　5.2.3
 
 ## Install
 ```bash
-git clone https://github.com/hoge/~
-cd examples
-python demo.py
+$ git clone https://github.com/yuchalychee/thanks_diary.git
+$ cd thanks diary
+$ bundle install
+$ rails db:create
+$ rails db:migrate
 ```
-
-## Contribution
-
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
-
-## Author
-
-[tcnksm](https://github.com/tcnksm)
