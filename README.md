@@ -1,24 +1,29 @@
-# README
+Thanks Diary
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An app that keeps a record of events that can be said to be "thank you" even for small things.
+The aim was to become a habit by spelling every day, and to be grateful and to be able to spend a healthy life by giving thanks.
 
-Things you may want to cover:
+## Description
+This app allows you to leave text as a diary, as well as edit and delete articles later.
+In addition, you can browse the posted contents of other contributors who use the app thank you.
 
-* Ruby version
+## Demo
 
-* System dependencies
 
-* Configuration
+## VS. 
 
-* Database creation
+## Requirement
 
-* Database initialization
+## Usage
 
-* How to run the test suite
+## Install
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contribution
 
-* Deployment instructions
+## Licence
 
-* ...
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+
+## Author
+
+[tcnksm](https://github.com/tcnksm)
