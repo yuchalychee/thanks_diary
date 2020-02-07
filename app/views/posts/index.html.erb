@@ -5,32 +5,33 @@
 </div>
 
 <div class=summary>
-  <div class=summary2>
+  <div class=summary__top>
     <div class="destruction">
-    <div class="omozi">「今日何に感謝しましたか？」</div><br>
-    毎日寝るまえにその日にあった良かったこと<br>
-    を一つだけ書き出して感謝するだけで思考の<br>
-    パターンが変わり、習慣が変わります。<br>
-    毎日の幸せを実感できるようになり、人生の<br>
-    満足度が上がります。毎晩、寝るまえに「そ<br>
-    の日にあった良いこと」を1つ記録する「感<br>
-    謝日記」が簡単で効果ばつぐんです！<br>
+      <div class="omozi">今日は何に感謝しましたか？</div><br>
+      恋人と楽しく過ごせた、ランチで美味しい<br>
+      ご飯を食べられた、いいお天気で快適に過<br>
+      ごせた…etc.何気なく過ごしている日々の<br>
+      中で、感謝できる出来事は身の回りに沢山<br>
+      あります。どんな小さなことでも目を向け、<br>
+      “感謝しにいく”ことはポジティブな思考に<br>
+      なり、生活も心も豊かにさせてくれます。<br>
     </div>
-    <img class="photo" src="https://images.unsplash.com/photo-1529251333259-d36cccaf22ea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=741&q=80" alt="Make your system smart.">
+    <img class="photo" src="https://images.unsplash.com/photo-1524824929200-7a6f44fcc5c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="Make your system smart.">
   </div>
 
-  <div class=summary3>
+  <div class=summary__bottom>
     <div class="destruction2">
-    <div class="omozi">幸せを引き寄せてみませんか?</div><br>
-    感謝日記にはネガティブな気持ちをポジティ<br>
-    ブに変えてくれる他にもたくさんの効果があ<br>
-    り、 感謝日記を書くことが、世の中で今す<br>
-    ごく注目されています。1日に1回、感謝の日<br>
-    記をつけるだけで幸福感を高め、創造性を引<br>
-    き出し、ストレスから身を守れる効果が、研<br>
-    究でも証明されています。<br>
+      <div class="omozi">毎日を幸せに生きよう</div><br>
+      意識的に感謝できることを探し、習慣化する<br>
+      ことで「態度」や「姿勢」が少しずつ変化し<br>
+      ていきます。そうなれば常に前向きな気持ち<br>
+      を持って過ごせ、セルフエスティームつまり<br>
+      「私はこれで大丈夫」と思う気持ちを高めた<br>
+      り、自分の周りの人間関係を豊かにできます。<br>
     </div>
     <img class="photo2" src="https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_960_720.jpg" alt="Make your system smart.">
+  </div>
+</div>
 
 <div class="comment2">
   <div class="comment">
@@ -38,26 +39,26 @@
       〜皆のありがとう〜
     <i class="fas fa-dove"></i>
   </div>
-    <div class="contents">
-      <% @posts.each do |post| %>
-        <div class="content">
-          <div class="content__left">
-            <i class="fa fa-pagelines"></i>
+  <div class="contents">
+    <% @posts.each do |post| %>
+      <div class="content">
+        <div class="content__left">
+          <i class="fa fa-pagelines"></i>
+        </div>
+        <div class="content__right">
+          <div class="content__right__top">
+            <%= link_to post.title, post_path(post.id), class: "content__right__top--title" %>
           </div>
-          <div class="content__right">
-            <div class="content__right__top">
-              <%= link_to post.title, post_path(post.id), class: "content__right__top--title" %>
+          <div class="content__right__bottom">
+            <div class="content__right__bottom--userName">
+              <%= link_to post.user.nickname, user_path(post.user), class: "content__right__bottom--userName--btn" %>
             </div>
-            <div class="content__right__bottom">
-              <div class="content__right__bottom--userName">
-                <%= link_to post.user.nickname, user_path(post.user), class: "content__right__bottom--userName--btn" %>
-              </div>
-              <div class="content__right__bottom--date">
-                <%= post.created_at %>
-              </div>
+            <div class="content__right__bottom--date">
+              <%= post.created_at %>
             </div>
           </div>
         </div>
-      <% end %>
-    </div>  
+      </div>
+    <% end %>
+  </div>  
 </div>

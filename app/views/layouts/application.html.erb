@@ -2,7 +2,7 @@
 <html>
   <head>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <title>thanksdiary</title>
+    <title>Thanks Diary</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -30,16 +30,9 @@
             <%= link_to "新規登録", new_user_registration_path, class: "header__right--yy2" %>
           </div>
           <% end %>
-          <%# <div class="album">
-            <img class="img1" src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE1ODB9" alt="Make your system smart.">
-            <img class="img2" src="https://images.unsplash.com/photo-1499568509606-4f9b771232ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Smart Limited Liability Company">
-            <img class="img3" src="https://cdn.pixabay.com/photo/2014/02/07/11/36/couple-260899_960_720.jpg" alt="Smart Limited Liability">
-        </div> %>
         </div>
       </div>
     </header>
-    <%# <div class="contents"> %>
       <%= yield %>
-   <%# </div>     %>
   </body>
 </html>
